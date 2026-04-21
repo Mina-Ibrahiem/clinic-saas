@@ -1,0 +1,25 @@
+# General
+.DS_Store
+Thumbs.db
+*.log
+
+# Backend (Laravel)
+backend/vendor/
+backend/node_modules/
+backend/.env
+backend/.env.*
+backend/storage/*.key
+backend/storage/logs/*
+backend/bootstrap/cache/*.php
+
+# Frontend (Flutter)
+frontend/.dart_tool/
+frontend/build/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/.packages
+frontend/.metadata
+
+# IDE
+.vscode/
+.idea/
