@@ -1,0 +1,35 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Clinic API",
+        "description": "REST API for the Clinic Management System (UAE SMB clinics).",
+        "version": "1.0.0"
+    },
+    "servers": [
+        {
+            "url": "/api",
+            "description": "API (relative to APP_URL)"
+        }
+    ],
+    "paths": {
+        "/v1/health": {
+            "get": {
+                "tags": [
+                    "System"
+                ],
+                "summary": "Service health",
+                "operationId": "f3d338672207beae7cf995e32aba063d",
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        }
+    },
+    "tags": [
+        {
+            "name": "System"
+        }
+    ]
+}
