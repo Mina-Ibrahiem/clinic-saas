@@ -8,6 +8,7 @@ php artisan route:cache || true
 php artisan view:cache || true
 
 php artisan migrate --force || true
+php artisan db:seed --force || true
 
 php-fpm -D
 nginx -g "daemon off;"
